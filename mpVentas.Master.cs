@@ -10,7 +10,7 @@ namespace wfVentas {
         protected void Page_Load(object sender, EventArgs e) {
             usuario usu = (usuario)Session["usuario"];
             if (usu == null) {
-                Response.Redirect("/Login.aspx");
+                Response.Redirect("/wfLogin.aspx");
                 return;
             }
             txtNombreUsuario.Text = usu.nombre;

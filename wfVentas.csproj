@@ -160,8 +160,11 @@
       <DependentUpon>bdVentas.edmx</DependentUpon>
       <LastGenOutput>bdVentas.cs</LastGenOutput>
     </Content>
+    <Content Include="vistas\artículos\wfListado.aspx" />
+    <Content Include="vistas\categorías\wfListado.aspx" />
     <Content Include="Web.config" />
     <Content Include="Pruebas.aspx" />
+    <Content Include="wfSalir.aspx" />
     <Content Include="wfCambiarContraseña.aspx" />
     <Content Include="wfDatosPersonales.aspx" />
     <Content Include="wfLogin.aspx" />
@@ -222,6 +225,27 @@
     </Compile>
     <Compile Include="venta.cs">
       <DependentUpon>bdVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\artículos\wfListado.aspx.cs">
+      <DependentUpon>wfListado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\artículos\wfListado.aspx.designer.cs">
+      <DependentUpon>wfListado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\categorías\wfListado.aspx.cs">
+      <DependentUpon>wfListado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\categorías\wfListado.aspx.designer.cs">
+      <DependentUpon>wfListado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfSalir.aspx.cs">
+      <DependentUpon>wfSalir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfSalir.aspx.designer.cs">
+      <DependentUpon>wfSalir.aspx</DependentUpon>
     </Compile>
     <Compile Include="wfCambiarContraseña.aspx.cs">
       <DependentUpon>wfCambiarContraseña.aspx</DependentUpon>
